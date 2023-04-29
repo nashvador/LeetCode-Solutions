@@ -1,4 +1,4 @@
-function searchInsert(nums: number[], target: number): any {
+function searchInsert(nums: number[], target: number): number {
   let low: number = 0;
   let high: number = nums.length - 1;
 
@@ -16,6 +16,5 @@ function searchInsert(nums: number[], target: number): any {
       return mid;
     }
   }
-  if (low > high) return high + 1;
-  if (low === high) return high;
+  return low;
 }
