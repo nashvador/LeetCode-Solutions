@@ -1,1 +1,1 @@
-Just my Leetcode solutions
+This repository is for my leetcode solutions
